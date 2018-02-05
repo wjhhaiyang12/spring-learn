@@ -1,0 +1,30 @@
+2018-02-05 09:24:08,688  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 1136 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:24:08,691  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:24:11,337  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.084 seconds (JVM running for 4.259)
+2018-02-05 09:24:49,661  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:24:49,662 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:25:22,359  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 2032 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:25:22,362  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:25:25,046  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.057 seconds (JVM running for 4.13)
+2018-02-05 09:25:51,021  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 2856 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:25:51,024  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:25:54,850  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 4.378 seconds (JVM running for 5.769)
+2018-02-05 09:27:19,490  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 7156 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:27:19,493  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:27:22,312  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.166 seconds (JVM running for 4.192)
+2018-02-05 09:29:43,559  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:29:43,559 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:42:32,008 1  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 4320 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:42:32,011 1  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:42:34,778 1  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.154 seconds (JVM running for 4.161)
+2018-02-05 09:42:52,875 18  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:42:52,876 18 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:43:10,723 23  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:43:10,727 23 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:43:15,722 25  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:43:15,723 25 ERROR SpringBootLog4jApplication:23 - error log data
+[2018-02-05 09:45:06.331] [INFO] [main][StartupInfoLogger.java:48] - Starting SpringBootLog4jApplication on lenovo-PC with PID 3724 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+[2018-02-05 09:45:06.333] [INFO] [main][SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+[2018-02-05 09:45:09.072] [INFO] [main][StartupInfoLogger.java:57] - Started SpringBootLog4jApplication in 3.163 seconds (JVM running for 4.198)
+[2018-02-05 09:45:40.846] [INFO] [http-nio-8080-exec-1][SpringBootLog4jApplication.java:22] - info log data
+[2018-02-05 09:45:40.846] [ERROR] [http-nio-8080-exec-1][SpringBootLog4jApplication.java:23] - error log data
