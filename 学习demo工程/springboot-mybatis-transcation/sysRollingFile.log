@@ -1,0 +1,186 @@
+2018-02-05 09:24:08,688  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 1136 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:24:08,691  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:24:08,781  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:24:08 CST 2018]; root of context hierarchy
+2018-02-05 09:24:09,079  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-05 09:24:10,298  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-02-05 09:24:10,311  INFO StandardService:180 - Starting service [Tomcat]
+2018-02-05 09:24:10,313  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 09:24:10,429  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-02-05 09:24:10,429  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1652 ms
+2018-02-05 09:24:10,582  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 09:24:10,587  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 09:24:10,587  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 09:24:10,587  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 09:24:10,588  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 09:24:10,935  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:24:08 CST 2018]; root of context hierarchy
+2018-02-05 09:24:11,014  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+2018-02-05 09:24:11,018  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 09:24:11,019  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 09:24:11,052  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:24:11,052  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:24:11,101  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:24:11,263  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-02-05 09:24:11,291  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:24:11,302  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:24:11,314  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-02-05 09:24:11,333  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-02-05 09:24:11,337  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.084 seconds (JVM running for 4.259)
+2018-02-05 09:24:49,559  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 09:24:49,559  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 09:24:49,586  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-02-05 09:24:49,661  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:24:49,662 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:25:22,359  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 2032 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:25:22,362  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:25:22,433  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b25e1a: startup date [Mon Feb 05 09:25:22 CST 2018]; root of context hierarchy
+2018-02-05 09:25:22,910  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-05 09:25:24,001  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-02-05 09:25:24,013  INFO StandardService:180 - Starting service [Tomcat]
+2018-02-05 09:25:24,014  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 09:25:24,126  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-02-05 09:25:24,126  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1698 ms
+2018-02-05 09:25:24,285  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 09:25:24,290  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 09:25:24,290  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 09:25:24,290  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 09:25:24,291  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 09:25:24,656  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b25e1a: startup date [Mon Feb 05 09:25:22 CST 2018]; root of context hierarchy
+2018-02-05 09:25:24,732  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+2018-02-05 09:25:24,735  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 09:25:24,736  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 09:25:24,770  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:24,770  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:24,814  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:24,971  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-02-05 09:25:25,000  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:25:25,011  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:25:25,021  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-02-05 09:25:25,043  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-02-05 09:25:25,046  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.057 seconds (JVM running for 4.13)
+2018-02-05 09:25:51,021  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 2856 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:25:51,024  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:25:51,114  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:25:51 CST 2018]; root of context hierarchy
+2018-02-05 09:25:51,733  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-05 09:25:53,650  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-02-05 09:25:53,664  INFO StandardService:180 - Starting service [Tomcat]
+2018-02-05 09:25:53,665  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 09:25:53,776  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-02-05 09:25:53,776  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 2665 ms
+2018-02-05 09:25:53,945  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 09:25:53,951  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 09:25:53,951  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 09:25:53,952  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 09:25:53,952  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 09:25:54,350  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:25:51 CST 2018]; root of context hierarchy
+2018-02-05 09:25:54,428  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+2018-02-05 09:25:54,432  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 09:25:54,432  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 09:25:54,470  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:54,471  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:54,512  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:25:54,684  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-02-05 09:25:54,787  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:25:54,813  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:25:54,823  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-02-05 09:25:54,845  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-02-05 09:25:54,850  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 4.378 seconds (JVM running for 5.769)
+2018-02-05 09:27:19,490  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 7156 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:27:19,493  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:27:19,559  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:27:19 CST 2018]; root of context hierarchy
+2018-02-05 09:27:19,964  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-05 09:27:21,278  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-02-05 09:27:21,291  INFO StandardService:180 - Starting service [Tomcat]
+2018-02-05 09:27:21,292  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 09:27:21,403  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-02-05 09:27:21,403  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1851 ms
+2018-02-05 09:27:21,553  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 09:27:21,557  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 09:27:21,557  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 09:27:21,557  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 09:27:21,557  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 09:27:21,917  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d5509a: startup date [Mon Feb 05 09:27:19 CST 2018]; root of context hierarchy
+2018-02-05 09:27:21,994  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+2018-02-05 09:27:21,998  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 09:27:21,998  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 09:27:22,031  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:27:22,032  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:27:22,079  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:27:22,233  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-02-05 09:27:22,268  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:27:22,280  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:27:22,290  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-02-05 09:27:22,308  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-02-05 09:27:22,312  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.166 seconds (JVM running for 4.192)
+2018-02-05 09:29:43,511  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 09:29:43,511  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 09:29:43,527  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-02-05 09:29:43,559  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:29:43,559 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:42:32,008 1  INFO SpringBootLog4jApplication:48 - Starting SpringBootLog4jApplication on lenovo-PC with PID 4320 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+2018-02-05 09:42:32,011 1  INFO SpringBootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2018-02-05 09:42:32,091 1  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19ece50: startup date [Mon Feb 05 09:42:32 CST 2018]; root of context hierarchy
+2018-02-05 09:42:32,556 11  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-02-05 09:42:33,743 1  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-02-05 09:42:33,755 1  INFO StandardService:180 - Starting service [Tomcat]
+2018-02-05 09:42:33,756 1  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-05 09:42:33,867 14  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2018-02-05 09:42:33,868 14  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1781 ms
+2018-02-05 09:42:34,022 14  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-05 09:42:34,027 14  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-05 09:42:34,028 14  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-05 09:42:34,028 14  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-05 09:42:34,029 14  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-05 09:42:34,380 1  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19ece50: startup date [Mon Feb 05 09:42:32 CST 2018]; root of context hierarchy
+2018-02-05 09:42:34,458 1  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+2018-02-05 09:42:34,463 1  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-05 09:42:34,463 1  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-05 09:42:34,496 1  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:42:34,496 1  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:42:34,540 1  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-05 09:42:34,697 1  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-02-05 09:42:34,734 1  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:42:34,745 1  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2018-02-05 09:42:34,756 1  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-02-05 09:42:34,774 1  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-02-05 09:42:34,778 1  INFO SpringBootLog4jApplication:57 - Started SpringBootLog4jApplication in 3.154 seconds (JVM running for 4.161)
+2018-02-05 09:42:52,828 18  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-05 09:42:52,829 18  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-05 09:42:52,843 18  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-02-05 09:42:52,875 18  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:42:52,876 18 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:43:10,723 23  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:43:10,727 23 ERROR SpringBootLog4jApplication:23 - error log data
+2018-02-05 09:43:15,722 25  INFO SpringBootLog4jApplication:22 - info log data
+2018-02-05 09:43:15,723 25 ERROR SpringBootLog4jApplication:23 - error log data
+[2018-02-05 09:45:06.331] [INFO] [main][StartupInfoLogger.java:48] - Starting SpringBootLog4jApplication on lenovo-PC with PID 3724 (C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j\target\classes started by lenovo in C:\Users\lenovo\Desktop\github\spring-learn\springboot-log4j)
+[2018-02-05 09:45:06.333] [INFO] [main][SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+[2018-02-05 09:45:06.417] [INFO] [main][AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19ece50: startup date [Mon Feb 05 09:45:06 CST 2018]; root of context hierarchy
+[2018-02-05 09:45:06.791] [INFO] [background-preinit][Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+[2018-02-05 09:45:08.034] [INFO] [main][TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 8080 (http)
+[2018-02-05 09:45:08.047] [INFO] [main][DirectJDKLog.java:180] - Starting service [Tomcat]
+[2018-02-05 09:45:08.049] [INFO] [main][DirectJDKLog.java:180] - Starting Servlet Engine: Apache Tomcat/8.5.27
+[2018-02-05 09:45:08.164] [INFO] [localhost-startStop-1][DirectJDKLog.java:180] - Initializing Spring embedded WebApplicationContext
+[2018-02-05 09:45:08.169] [INFO] [localhost-startStop-1][EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1761 ms
+[2018-02-05 09:45:08.322] [INFO] [localhost-startStop-1][ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-02-05 09:45:08.327] [INFO] [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-02-05 09:45:08.327] [INFO] [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-02-05 09:45:08.328] [INFO] [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-02-05 09:45:08.328] [INFO] [localhost-startStop-1][AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-02-05 09:45:08.672] [INFO] [main][RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19ece50: startup date [Mon Feb 05 09:45:06 CST 2018]; root of context hierarchy
+[2018-02-05 09:45:08.744] [INFO] [main][AbstractHandlerMethodMapping.java:543] - Mapped "{[/]}" onto java.lang.String logtest.SpringBootLog4jApplication.home()
+[2018-02-05 09:45:08.748] [INFO] [main][AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2018-02-05 09:45:08.748] [INFO] [main][AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2018-02-05 09:45:08.780] [INFO] [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-02-05 09:45:08.780] [INFO] [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-02-05 09:45:08.831] [INFO] [main][AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2018-02-05 09:45:08.996] [INFO] [main][MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+[2018-02-05 09:45:09.027] [INFO] [main][DirectJDKLog.java:180] - Initializing ProtocolHandler ["http-nio-8080"]
+[2018-02-05 09:45:09.038] [INFO] [main][DirectJDKLog.java:180] - Starting ProtocolHandler ["http-nio-8080"]
+[2018-02-05 09:45:09.049] [INFO] [main][DirectJDKLog.java:180] - Using a shared selector for servlet write/read
+[2018-02-05 09:45:09.068] [INFO] [main][TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 8080 (http)
+[2018-02-05 09:45:09.072] [INFO] [main][StartupInfoLogger.java:57] - Started SpringBootLog4jApplication in 3.163 seconds (JVM running for 4.198)
+[2018-02-05 09:45:40.795] [INFO] [http-nio-8080-exec-1][DirectJDKLog.java:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-02-05 09:45:40.796] [INFO] [http-nio-8080-exec-1][FrameworkServlet.java:489] - FrameworkServlet 'dispatcherServlet': initialization started
+[2018-02-05 09:45:40.813] [INFO] [http-nio-8080-exec-1][FrameworkServlet.java:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+[2018-02-05 09:45:40.846] [INFO] [http-nio-8080-exec-1][SpringBootLog4jApplication.java:22] - info log data
+[2018-02-05 09:45:40.846] [ERROR] [http-nio-8080-exec-1][SpringBootLog4jApplication.java:23] - error log data
